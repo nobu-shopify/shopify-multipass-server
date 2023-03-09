@@ -1,0 +1,10 @@
+{
+  "name": "shopify-multipass-server",
+  "version": "0.1.0",
+  "description": "Tesing environment for Shopify Multipass",
+  "main": "index.js",
+  "repository": "git@github.com:nobu-shopify/shopify-multipass-server.git",
+  "author": "Nobu Hayashi <nobu.hayashi@shopify.com>",
+  "license": "MIT",
+  "private": true
+}
