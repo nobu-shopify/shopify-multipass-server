@@ -18,6 +18,10 @@ MULTIPASS_SECRET="your_stores_multipass_secret"
     - The app generates `created_at` automatically (another mandatory field of Multipass).
 - This app supports most Multipass params described in https://shopify.dev/docs/api/multipass#2-encode-your-customer-information-using-json
     - Modify `multipass_params` function in `index.js` file to customize.
+- Notes:
+    - If customer account (identified by email) exists in the target store, Multipass will log the customer into existing account.
+    - Otherwise, a new customer account is automatically created.
+    - Multipass will overwrite (NOT append) customer field (eg. tag) so be careful what to specify.
 
 ## Troubleshooting
 ### Where .env file should be located?
