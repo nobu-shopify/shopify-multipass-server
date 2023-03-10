@@ -74,7 +74,7 @@ const multipass_params = (query) => {
         province  : query.province, 
         province_code: query.province_code,
         country_code : query.country_code,            
-        default : query.default ? query.default : true
+        default : query.default
       }
     ]
   };
