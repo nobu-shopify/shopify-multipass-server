@@ -6,5 +6,15 @@
   "repository": "git@github.com:nobu-shopify/shopify-multipass-server.git",
   "author": "Nobu Hayashi <nobu.hayashi@shopify.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multipassify": "^1.1.0",
+    "node": "^19.6.1"
+  },
+  "scripts": {
+    "debug": "node --inspect-brk index.js",
+    "dev": "node index.js"
+  }
 }
