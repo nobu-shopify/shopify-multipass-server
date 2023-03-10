@@ -4,8 +4,10 @@ Testing environment of Shopify Multipass
 ## Quickstart
 1. Clone / download this repo into your local folder.
 2. Create `.env` file in the root of this application, and write up the following. Multipass secret can be found in Shopify Admin > Settings > Checkout and accounts > Customer account URLs
-- `STORE_URL="your_store.myshopify.com"`
-- `MULTIPASS_SECRET="your_stores_multipass_secret"`
+```
+STORE_URL="your_store.myshopify.com"
+MULTIPASS_SECRET="your_stores_multipass_secret"
+```
 3. Run `yarn` then `yarn dev`. The app should listen to localhost:5000
 4. In your browser, open `localhost:5000?email=myfirstmultipass@yahoo.youmadeit` and see it works!
 
