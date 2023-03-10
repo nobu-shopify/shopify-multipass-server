@@ -19,4 +19,32 @@ MULTIPASS_SECRET="your_stores_multipass_secret"
 - This app supports most Multipass params described in https://shopify.dev/docs/api/multipass#2-encode-your-customer-information-using-json
     - Modify `multipass_params` function in `index.js` file to customize.
 
-### Enjoy Multipass!!
+## Troubleshooting
+### Where .env file should be located?
+Once you've downloaded / unzipped the github files, the folder should contain something like this:
+```
+$ ls -la
+
+-rw-r--r--  1 nobu staff  1069 3 10 07:40 LICENSE
+-rw-r--r--  1 nobu staff  1141 3 10 09:47 README.md
+-rw-r--r--  1 nobu staff  2582 3 10 09:06 index.js
+-rw-r--r--  1 nobu staff  535 3 10 08:32 package.json
+```
+In this folder, create .env file and write in store URL and Multipass secret as indicated in the README.md.  
+Once you have .env file, ls -la output should look like:
+```
+$ ls -la
+
+-rw-r--r--  1 nobu staff   87 3 10 09:02 .env
+-rw-r--r--  1 nobu staff  1069 3 10 07:40 LICENSE
+-rw-r--r--  1 nobu staff  1141 3 10 09:47 README.md
+-rw-r--r--  1 nobu staff  2582 3 10 09:06 index.js
+-rw-r--r--  1 nobu staff  535 3 10 08:32 package.json
+```
+### I do not have yarn installed. What to do?
+Install homebrew - https://brew.sh/index_ja  
+then run 
+```
+brew install yarn
+```
+# Enjoy Multipass!!
