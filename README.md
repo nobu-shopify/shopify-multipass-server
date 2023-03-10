@@ -34,7 +34,7 @@ $ ls -la
 -rw-r--r--  1 nobu staff  2582 3 10 09:06 index.js
 -rw-r--r--  1 nobu staff  535 3 10 08:32 package.json
 ```
-In this folder, create .env file and write in store URL and Multipass secret as indicated in the README.md.  
+In this folder, create .env file and write in store URL and Multipass secret as indicated in the [Quckckstart section](https://github.com/nobu-shopify/shopify-multipass-server#quickstart).  
 Once you have .env file, ls -la output should look like:
 ```
 $ ls -la
