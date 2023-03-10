@@ -14,8 +14,8 @@ MULTIPASS_SECRET="your_stores_multipass_secret"
 ## How to use it
 - Multipass parameters are given as the URL query.
     - Example: `localhost:5000?email=xxxxx&first_name=yyyyy&last_name=zzzzz&return_to=https://www.google.com/`
-    - email is the only mandatory field. 
-    - The app generates created_at (another Multipass mandatory field) automatically.
+    - `email` is the only mandatory field. 
+    - The app generates `created_at` automatically (another mandatory field of Multipass).
 - This app supports most Multipass params described in https://shopify.dev/docs/api/multipass#2-encode-your-customer-information-using-json
     - Modify `multipass_params` function in `index.js` file to customize.
 
