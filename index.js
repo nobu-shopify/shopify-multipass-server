@@ -61,6 +61,7 @@ const multipass_params = (query) => {
     last_name:  query.last_name,
     tag_string: query.tag_string,
     return_to:  query.return_to,
+    identifier: query.identifier,
     addresses: [
       {
         address1  : query.address1,
