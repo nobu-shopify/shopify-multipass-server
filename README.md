@@ -9,7 +9,7 @@ STORE_URL="your_store.myshopify.com"
 MULTIPASS_SECRET="your_stores_multipass_secret"
 ```
 3. Run `yarn` then `yarn dev`. The app should listen to localhost:5000
-4. In your browser, open `localhost:5000?email=myfirstmultipass@yahoo.youmadeit` and see it works!
+4. In your browser, open `localhost:5000?email=myfirstmultipass%40yahoo.youmadeit` and see it works! (NOTE: "@" needs be [URL encoded](https://www.w3schools.com/tags/ref_urlencode.ASP)) 
 
 ## How to use it
 - Multipass parameters are given as the URL query.
